@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Montserrat';
+    background-image: url('https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMDMwMjF8&ixlib=rb-4.0.3&q=80&w=1865');
+}
+
+.menu { 
+  border: 4px powderblue solid;
+  background: rgb(255,241,0);
+  background: linear-gradient(130deg, rgba(255,241,0,1) 0%, rgba(255,165,0,1) 100%);
+  padding:20px;
+  margin:50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.ingredientes {
+  font-size:18px;
+}
+
+.ingrediente_descricao {
+    padding-left: 350px;
+    padding-bottom: 17px;
+}
+
+.div_subclasses {
+    padding: 20px;
+}
+
+.fonte_1 {
+    padding-bottom: 10px;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.item {
+    padding-left: 350px;
+}
+
+strong {
+    font-weight:600;
+}
