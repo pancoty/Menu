@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
@@ -7,44 +7,84 @@
 }
 
 body {
-    font-size: 25px;
+    font-size: 1.5625em;
     font-family: 'Montserrat';
-    background-image: url('https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMDMwMjF8&ixlib=rb-4.0.3&q=80&w=1865');
+    background-image: url('https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMDMwMjF8&ixlib=rb-4.0.3&q=100%&w=100%');
 }
 
-.menu { 
+strong {
+    font-weight:600;
+}
+
+.caixa { 
   border: 4px powderblue solid;
   background: rgb(255,241,0);
   background: linear-gradient(130deg, rgba(255,241,0,1) 0%, rgba(255,165,0,1) 100%);
-  padding:20px;
-  margin:50px;
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-.ingredientes {
-  font-size:18px;
-}
-
-.ingrediente_descricao {
-    padding-left: 350px;
-    padding-bottom: 17px;
+  padding:2%;
+  margin:3%;
+  margin-left: 17%;
+  margin-right: 17%;
 }
 
 .div_subclasses {
-    padding: 20px;
+    padding: 1%;
 }
 
-.fonte_1 {
-    padding-bottom: 10px;
+.ingrediente_descricao {
+    padding-left: 23%;
+    padding-bottom: 0.9%;
+}
+
+.subtitulos {
+    padding-bottom: 0.3%;
     text-align:center;
     font-family: 'Dancing Script', cursive;
 }
 
 .item {
-    padding-left: 350px;
+    padding-left: 23%;
 }
 
-strong {
-    font-weight:600;
+.ingredientes {
+    font-size: 0.72em;
+}
+
+@media only screen and (max-device-width: 1300px) {
+    .caixa {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .ingrediente_descricao {
+        padding-left: 15%;
+        padding-bottom: 0.9%;
+    }
+
+    .div_subclasses {
+        padding: 2%;
+    }
+
+    .item {
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .caixa {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .ingrediente_descricao {
+        padding-left: 10%;
+        padding-bottom: 0.9%;
+    }
+
+    .div_subclasses {
+        padding: 2%;
+    }
+
+    .item {
+        padding-left: 10%;
+    }
 }
